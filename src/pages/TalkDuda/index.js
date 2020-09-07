@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 
 import FooterD from '../../components/FooterD';
-// import DudaCard from '../../components/DudaCard';
+import DudaCard from '../../components/DudaCard';
 
 import Chat from '../../Chat';
 
@@ -21,9 +21,9 @@ export default class index extends Component {
 
         {/* <Chat /> */}
 
-        <ScrollView> */}
+        <ScrollView>
 
-        <DudaCard />
+          <DudaCard />
           <DudaCard />
           <DudaCard />
           <DudaCard />
