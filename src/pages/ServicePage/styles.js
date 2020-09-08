@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { StyleSheet } from 'react-native';
+import colors from '../../styles/colors';
 
-import styles from './styles';
-
-import PageHeader from '../../components/PageHeader';
-
-export default class index extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <PageHeader />
-        <Text style={styles.title}>Extratos</Text>
-      </View>
-    )
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: colors.primary,
+  },
+  title: {
+    fontSize: 30,
+    textAlign: 'center',
   }
-}
+})
+
+export default styles;

@@ -8,12 +8,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.primary,
   },
   top: {
-    flexDirection: 'column',
-    width: 280,
-    height: 30,
-    marginBottom: 50,
-    marginTop: 12,
-    alignSelf: 'center',
+    alignItems: 'center',
   },
   box: {
     width: 200,
@@ -22,7 +17,7 @@ const styles = StyleSheet.create({
     borderRadius: 32,
     marginTop: 16,
     // position: 'absolute',
-    paddingHorizontal: 16,
+    paddingHorizontal: 12,
     paddingVertical: 2,
 
   },
@@ -30,11 +25,6 @@ const styles = StyleSheet.create({
     fontFamily: 'Montserrat-Regular',
     fontSize: 12,
     color: colors.text,
-  },
-  find: {
-    width: "100%",
-    height: 40,
-    backgroundColor: colors.secondary,
   }
 })
 

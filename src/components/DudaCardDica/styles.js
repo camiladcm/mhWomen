@@ -5,8 +5,8 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: colors.secondary,
     borderRadius: 8,
-    marginBottom: 16,
-    overflow: 'hidden',
+    marginBottom: 8,
+
     marginTop: 16,
     margin: 24,
     elevation: 0.5,
@@ -49,9 +49,23 @@ const styles = StyleSheet.create({
     color: colors.text,
   },
   footer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
     padding: 24,
-    alignItems: 'center',
-    marginTop: 18,
+    marginTop: 6,
+  },
+  send: {
+    borderRadius: 8,
+    backgroundColor: colors.secondary,
+    height: 35,
+    width: 100,
+  },
+  buttonText: {
+    fontFamily: 'Montserrat-Regular',
+    fontSize: 14,
+    color: colors.purple,
+    padding: 4,
+    fontWeight: 'bold',
   },
   end: {
     fontFamily: 'Montserrat-Regular',

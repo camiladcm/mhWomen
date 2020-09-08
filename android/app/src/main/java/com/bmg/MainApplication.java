@@ -6,6 +6,8 @@ import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.wenkesj.voice.VoicePackage;
 import de.innfactory.apiai.RNApiAiPackage;
+import com.wenkesj.voice.VoicePackage;
+import de.innfactory.apiai.RNApiAiPackage;
 import com.swmansion.reanimated.ReanimatedPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.facebook.react.ReactInstanceManager;
